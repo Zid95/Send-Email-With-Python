@@ -7,9 +7,9 @@ email_password = input("Enter App Passwords: ").strip()
 
 email_reciver = input("Enter Email For Reciver: ").strip().lower()
 
-subject = input("Enter The Email Subject: ").strip()
+subject = input("Enter The Email Subject: ")
 
-body = input("Enter The Email Body: ").strip()
+body = input("Enter The Email Body: ")
 
 
 em = EmailMessage()
