@@ -3,7 +3,7 @@ import ssl
 import smtplib
 
 email_sender = input("Enter Email For Sender: ").strip().lower()
-email_password = input("Enter App Passwords: ").strip()
+email_password = input("Enter Email App Password: ").strip()
 
 email_reciver = input("Enter Email For Reciver: ").strip().lower()
 
